@@ -1,5 +1,5 @@
 create table sample(Id int,text varchar(200));
-insert into sample(Id,text) values(1,'Pritha 1');
+insert into sample(Id,text) values(1,'sowmya 1');
 insert into sample(Id,text) values(2,'Pritha 2');
 insert into sample(Id,text) values(3,'Pritha 3');
 insert into sample(Id,text) values(4,'Pritha 4');
