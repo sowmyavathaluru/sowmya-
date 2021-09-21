@@ -1,10 +1,10 @@
 create table sample(Id int,text varchar(200));
 insert into sample(Id,text) values(1,'sowmya 1');
-insert into sample(Id,text) values(2,'Pritha 2');
-insert into sample(Id,text) values(3,'Pritha 3');
-insert into sample(Id,text) values(4,'Pritha 4');
-insert into sample(Id,text) values(5,'Pritha 5');
-insert into sample(Id,text) values(6,'Pritha 6');
+insert into sample(Id,text) values(2,'sowmya 2');
+insert into sample(Id,text) values(3,'sowmya 3');
+insert into sample(Id,text) values(4,'sowmya 4');
+insert into sample(Id,text) values(5,'sowmya 5');
+insert into sample(Id,text) values(6,'sowmya 6');
 
 select * from sample;
 select ID,TEXT from sample where id=4;
