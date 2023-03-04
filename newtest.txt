@@ -67,7 +67,17 @@ END
 		END IF
 	END FOR
 END
-
+8...BEGIN
+	DECLARE numbers[4] AS INTEGER ARRAY
+	FOR index=0 To 4
+		ACCEPT numbers[index]
+	END FOR
+	FOR index=0 TO 4
+		IF((numbers[index]%1==0)&&(numbers[index]%numbers[index]==0)) THEN
+			DISPLAY numbers[index] “is a prime number”
+		END IF
+	END FOR
+END
 
 
 
