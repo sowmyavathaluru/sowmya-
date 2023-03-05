@@ -79,7 +79,7 @@ END
 	END FOR
 END
 
-9.//copied from 7.
+9.//copied from 8.
     7.)BEGIN
 	DECLARE numbers[4] AS INTEGER ARRAY
 	FOR index=0 To 4
