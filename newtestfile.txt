@@ -67,6 +67,8 @@ END
 		END IF
 	END FOR
 END
+
+unwanted below:
 8...BEGIN
 	DECLARE numbers[4] AS INTEGER ARRAY
 	FOR index=0 To 4
@@ -80,3 +82,4 @@ END
 END
 
 10#############################
+11@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@SS
